@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="70161" started-at="2019-05-03T21:04:45Z" finished-at="2019-05-03T21:05:56Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="70161" started-at="2019-05-03T21:04:45Z" finished-at="2019-05-03T21:05:56Z">
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6df97b55]" name="setUp" is-config="true" duration-ms="8458" started-at="2019-05-04T02:34:45Z" finished-at="2019-05-04T02:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="homePageSuccessTest()[pri:1, instance:com.crm.qa.testcases.HomePageTest@6df97b55]" name="homePageSuccessTest" duration-ms="33" started-at="2019-05-04T02:34:54Z" finished-at="2019-05-04T02:34:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageSuccessTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6df97b55]" name="tearDown" is-config="true" duration-ms="685" started-at="2019-05-04T02:34:54Z" finished-at="2019-05-04T02:34:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6df97b55]" name="setUp" is-config="true" duration-ms="7940" started-at="2019-05-04T02:35:03Z" finished-at="2019-05-04T02:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logoutTest()[pri:2, instance:com.crm.qa.testcases.HomePageTest@6df97b55]" name="logoutTest" duration-ms="663" started-at="2019-05-04T02:35:11Z" finished-at="2019-05-04T02:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@6df97b55]" name="tearDown" is-config="true" duration-ms="698" started-at="2019-05-04T02:35:11Z" finished-at="2019-05-04T02:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="setUp" is-config="true" duration-ms="7363" started-at="2019-05-04T02:34:55Z" finished-at="2019-05-04T02:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateLoginPage()[pri:1, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="validateLoginPage" duration-ms="37" started-at="2019-05-04T02:35:02Z" finished-at="2019-05-04T02:35:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="679" started-at="2019-05-04T02:35:02Z" finished-at="2019-05-04T02:35:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="setUp" is-config="true" duration-ms="7097" started-at="2019-05-04T02:35:12Z" finished-at="2019-05-04T02:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginTest()[pri:2, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="loginTest" duration-ms="834" started-at="2019-05-04T02:35:19Z" depends-on-methods="com.crm.qa.testcases.LoginPageTest.validateLoginPage" finished-at="2019-05-04T02:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="685" started-at="2019-05-04T02:35:20Z" finished-at="2019-05-04T02:35:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="setUp" is-config="true" duration-ms="6997" started-at="2019-05-04T02:35:21Z" finished-at="2019-05-04T02:35:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidLogins(java.lang.String, java.lang.String)[pri:3, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="validateInvalidLogins" duration-ms="778" started-at="2019-05-04T02:35:28Z" data-provider="getTestData" finished-at="2019-05-04T02:35:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nagesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidLogins -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="699" started-at="2019-05-04T02:35:29Z" finished-at="2019-05-04T02:35:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="setUp" is-config="true" duration-ms="7321" started-at="2019-05-04T02:35:30Z" finished-at="2019-05-04T02:35:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidLogins(java.lang.String, java.lang.String)[pri:3, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="validateInvalidLogins" duration-ms="832" started-at="2019-05-04T02:35:37Z" data-provider="getTestData" finished-at="2019-05-04T02:35:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Suresh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ewqewqe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidLogins -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="693" started-at="2019-05-04T02:35:38Z" finished-at="2019-05-04T02:35:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="setUp" is-config="true" duration-ms="6805" started-at="2019-05-04T02:35:38Z" finished-at="2019-05-04T02:35:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidLogins(java.lang.String, java.lang.String)[pri:3, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="validateInvalidLogins" duration-ms="852" started-at="2019-05-04T02:35:45Z" data-provider="getTestData" finished-at="2019-05-04T02:35:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kamal]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ginga]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidLogins -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="702" started-at="2019-05-04T02:35:46Z" finished-at="2019-05-04T02:35:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="setUp" is-config="true" duration-ms="7379" started-at="2019-05-04T02:35:47Z" finished-at="2019-05-04T02:35:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateInvalidLogins(java.lang.String, java.lang.String)[pri:3, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="validateInvalidLogins" duration-ms="782" started-at="2019-05-04T02:35:54Z" data-provider="getTestData" finished-at="2019-05-04T02:35:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Diana]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[porer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateInvalidLogins -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.LoginPageTest@3cbbc1e0]" name="tearDown" is-config="true" duration-ms="688" started-at="2019-05-04T02:35:55Z" finished-at="2019-05-04T02:35:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
