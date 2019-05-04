@@ -6,7 +6,6 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
-import org.apache.log4j.Logger;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
@@ -15,7 +14,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 
 import com.crm.qa.base.TestBase;
-import com.crm.qa.testcases.LoginPageTest;
+
 
 public class TestUtil extends TestBase {
 	
@@ -59,22 +58,7 @@ public class TestUtil extends TestBase {
 		File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 		String currentDir = System.getProperty("user.dir");
 		FileUtils.copyFile(scrFile, new File(currentDir + "/screenshots/" + System.currentTimeMillis() + ".png"));
-	}
-	
-	//Log4j Logging
-	//What is log? : capturing info/activities at the time of program execution. 
-	// types of logs:
-		//1. info
-		//2. warn
-		//3. debug
-		//4. fatal
-		
-	//how to generate the logs? : use Apache log4j API (log4j jar)
-	//How it works? : it reads log 4j configuration from log4j.properties file
-	//where to create: create inside resources folder
-//	public static Logger getLoggerInstance(Class classname){		
-//		Logger log = Logger.getLogger(classname);	
-//		return log;		
-//	}
+	}	
+
 
 }
