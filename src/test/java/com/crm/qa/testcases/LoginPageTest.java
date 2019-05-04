@@ -15,7 +15,8 @@ public class LoginPageTest extends TestBase {
 	
 	LoginPage loginPage;
 	HomePage homepage;
-	Logger log = TestUtil.getLoggerInstance(LoginPageTest.class);
+	//Logger log = TestUtil.getLoggerInstance(LoginPageTest.class);
+	Logger log = Logger.getLogger(LoginPageTest.class);
 
 	public LoginPageTest() {
 		super();
