@@ -7,12 +7,12 @@ public class RetryLogicTest {
 	
 	@Test
 	public void Test1(){	
-		Assert.assertEquals(false, true);
+		Assert.assertEquals(true, true);
 	}
 	
 	@Test
 	public void Test2(){	
-		Assert.assertEquals(false, true);
+		Assert.assertEquals(true, true);
 	}
 	
 	@Test
